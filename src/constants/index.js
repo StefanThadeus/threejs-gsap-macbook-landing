@@ -7,6 +7,12 @@ const navLinks = [
   { label: "AirPods" },
 ];
 
+const SILVER_COLOR = { label: "Space Silver", value: "#adb5db" };
+const BLACK_COLOR = { label: "Onyx Black", value: "#2e2c2e" };
+
+const SCALE_14_INCH = { label: '14"', value: 0.06 };
+const SCALE_16_INCH = { label: '16"', value: 0.08 };
+
 const noChangeParts = [
   "Object_84",
   "Object_37",
@@ -136,4 +142,8 @@ export {
   noChangeParts,
   performanceImages,
   performanceImgPositions,
+  SILVER_COLOR,
+  BLACK_COLOR,
+  SCALE_14_INCH,
+  SCALE_16_INCH,
 };
